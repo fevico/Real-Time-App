@@ -28,7 +28,7 @@ class AdaptiveConnectionManager(
     var consecutiveFailures: Int = 0
         private set
 
-    var isProtected: Boolean = false              // Simulates Android Foreground Service state
+    var isProtected: Boolean = false
         private set
 
     var currentNetwork: NetworkQuality = NetworkQuality.EXCELLENT_4G
